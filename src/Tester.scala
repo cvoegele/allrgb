@@ -5,7 +5,7 @@ import javax.imageio.ImageIO
 
 object Tester {
   def main(args: Array[String]): Unit = {
-    val input = ImageIO.read(new FileInputStream("./RGBRandomMona8.png"))
+    val input = ImageIO.read(new FileInputStream("./RedMonas/invertedRed.png"))
 
     val width = input.getWidth()
     val height = input.getHeight()
